@@ -12,9 +12,9 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
  * Spring a besoin de savoir OÙ chercher les annotations @Component.
  * @ComponentScan("com.tp.spring") indique le package de base à scanner.
  */
-@Configuration
-@ComponentScan(basePackages = "com.mentoraone.emailManagerSystem")
-@PropertySource("classpath:application.properties")
+//@Configuration
+//@ComponentScan(basePackages = "com.mentoraone.emailManagerSystem")
+//@PropertySource("classpath:application.properties")
 public class AppConfig {
     // La classe peut rester vide, elle sert juste de point d'entrée pour la configuration
     @Bean
